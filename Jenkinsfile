@@ -4,7 +4,7 @@ pipeline {
         
     stage('Git') {
       steps {
-		git 'https://github.com/mohankumar-l/nodejs.git'
+		git clone 'https://github.com/mohankumar-l/nodejs.git'
       }
     }
      
