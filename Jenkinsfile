@@ -1,13 +1,7 @@
 pipeline {
   agent any 
   stages { 
-	  {
-	stage('CleanWorkspace') {
-            steps {
-                cleanWs()
-            }
-        }
-    }
+	
     stage('Git') {
       steps {
 		sh 'git clone https://github.com/mohankumar-l/nodejs.git'
