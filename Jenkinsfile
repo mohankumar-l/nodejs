@@ -17,7 +17,7 @@ pipeline {
             
     stage('Test') {
       steps {
-        sh 'node index.js &'
+        sh 'nohup node index.js &'
       }
     }
   }
