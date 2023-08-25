@@ -25,6 +25,4 @@ pipeline {
         sh 'nohup node index.js &'
       }
     }
-  }
-}
 }
